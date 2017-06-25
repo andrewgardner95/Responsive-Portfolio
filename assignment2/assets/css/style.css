@@ -277,7 +277,7 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin-bottom: 20px;
   }
@@ -336,7 +336,7 @@ input[type=submit] {
   }
 
   .auth-image {
-    width: 100%;
+    width: 50%;
     margin-bottom: 10px;
   }
 

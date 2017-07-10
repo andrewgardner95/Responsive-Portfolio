@@ -1,9 +1,9 @@
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
   color: #777;
   line-height: 34px;
-  background: url("../images/concrete_seamless.png");
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png");
 }
 
 * {
@@ -27,6 +27,10 @@ p {
   margin-bottom: 20px;
 }
 
+h5 {
+  font-size: 15px;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -34,9 +38,8 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Abril Fatface', cursive;
   color: #4aaaa5;
-  font-weight: 700;
 }
 
 h1 {
@@ -102,7 +105,7 @@ nav a:first-child {
 /*footer*/
 
 footer {
-  padding: 30px 0;
+  padding: 5px 0;
   clear: both;
   color: #fff;
   color: #ccc;

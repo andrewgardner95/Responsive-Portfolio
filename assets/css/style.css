@@ -1,15 +1,14 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #777;
+  color: black;
   line-height: 34px;
-  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png");
+  background: url("https://cdn.dribbble.com/users/526/screenshots/978689/attachments/113398/seamless-backgrounds-05.jpg");
 }
 
 * {
   box-sizing: border-box;
 }
-
 
 /*general*/
 
@@ -24,7 +23,7 @@ h1,
 h2,
 h3,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -38,130 +37,135 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: 'Abril Fatface', cursive;
-  color: #4aaaa5;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
 }
 
 h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
+  padding-bottom: 5px;
+  font-size: 40px;
   line-height: 49px;
-  border-bottom: 3px solid #ddd;
+  border-bottom: 3px solid black;
 }
 
 h2,
 h3 {
-  font-size: 22px;
+  font-size: 28px;
 }
 
 
 /*header*/
 
 #masthead {
-  position: fixed;
   z-index: 99;
-  margin: 0 0 30px;
   overflow: auto;
-  width: 100%;
-  color: #fff;
+  width: 960px;
+  color: black;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+  margin: 0 auto;
 }
 
 #logo {
-  width: 300px;
-  height: 90px;
+  width: 440px;
+  height: 70px;
   float: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
   text-align: center;
-  line-height: 90px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 30px;
+  line-height: 70px;
+  color: black;
+  font-size: 50px;
   text-decoration: none;
-  background: #4aaaa5;
+  letter-spacing: 1px;
 }
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 18px;
 }
 
 nav a {
   display: inline-block;
   margin-left: 15px;
   padding-left: 15px;
-  color: #999;
+  color: black;
   text-decoration: none;
   line-height: 18px;
-  border-left: 1px solid #efefef;
+  border-left: 1px solid black;
 }
 
 nav a:first-child {
   border-left: 0 none;
 }
 
+#portfolio-nav {
+  margin-right: 20px;
+}
 
 /*footer*/
 
 footer {
-  padding: 5px 0;
   clear: both;
-  color: #fff;
-  color: #ccc;
+  color: white;
   font-size: 12px;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #2e2d30;
 }
 
 
 /*sidebar*/
 
 .sidebar {
-  padding: 30px;
+  padding: 25px;
+  padding-bottom: 10px;
   width: 100%;
   max-width: 270px;
   float: right;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 h3,
 .sidebar h2 {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-bottom: 15px;
   line-height: 22px;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid black;
 }
 
 .social {
-  width: 70px;
-  height: 70px;
-  margin-top: 8px;
-  margin-right: 5px;
+  width: 80px;
+  height: 80px;
+  margin-top: 0px;
+  margin-right: 0px;
 }
 
 .social:last-child {
-  margin-right: 0;
+  margin-right: 10px;
+}
+
+#contact {
+  margin-bottom: 0px;
 }
 
 
 /*main*/
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 30px;
 }
 
 .main-section {
   padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0 0 40px 0;
   width: 100%;
   max-width: 650px;
   float: left;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 
@@ -184,19 +188,19 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: .8;
+  height: 160px;
 }
 
 .work h3 {
   position: absolute;
-  bottom: 20px;
+  bottom: 0px;
   margin-bottom: 0;
   padding: 15px;
   width: 100%;
-  color: #fff;
+  color: black;
   text-align: center;
   line-height: 30px;
   font-weight: 300;
-  background: #4aaaa5;
   border-bottom: 0;
 }
 
@@ -214,6 +218,10 @@ h3,
 
 h4 {
   font-size: 16px;
+}
+
+#resume {
+
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
